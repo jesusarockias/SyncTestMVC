@@ -38,17 +38,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>-->
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Local|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Local|Any CPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dev|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dev|Any CPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UserTest|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UserTest|Any CPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
