@@ -42,15 +42,18 @@
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
+    <OutputPath>bin\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dev|Any CPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
+    <OutputPath>bin\</OutputPath>
     <TypeScriptOutFile/>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UserTest|Any CPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
     <TypeScriptLib>dom,es2015</TypeScriptLib>
+    <OutputPath>bin\</OutputPath>
     <TypeScriptOutFile/>
   </PropertyGroup>
   <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
