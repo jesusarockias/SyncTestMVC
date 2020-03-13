@@ -28,8 +28,6 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>3.7</TypeScriptToolsVersion>
-    <TypeScriptTarget>es2015</TypeScriptTarget>
-    <TypeScriptLib>dom,es2015,es6</TypeScriptLib>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +37,11 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dev|AnyCPU' ">
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptLib>dom,es2015</TypeScriptLib>
+    <TypeScriptOutFile/>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
