@@ -40,17 +40,14 @@
   </PropertyGroup>-->
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Local|AnyCPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
-    <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dev|AnyCPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
-    <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UserTest|AnyCPU' ">
     <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
-    <TypeScriptLib>dom,es2015</TypeScriptLib>
     <TypeScriptOutFile/>
   </PropertyGroup>
   <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
